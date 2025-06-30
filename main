@@ -1,0 +1,7 @@
+from planner.core import generate_plan
+
+if __name__ == "__main__":
+    user_input = input("请输入你的计划需求：")
+    plan = generate_plan(user_input)
+    print("AI生成的计划：")
+    print(plan)
